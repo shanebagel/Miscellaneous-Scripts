@@ -1,4 +1,4 @@
-# Quickly Add a new AD user object from a CSV file. Specify a password, UPN, SamAccountName, and we use a boolean flag to enable the account
+# Quickly Add a new AD user object from a CSV file. Specify a password, SamAccountName, update the domain and OU path and use a boolean flag to enable the account
 
 $password = Read-Host "Type your password" -AsSecureString 
 
